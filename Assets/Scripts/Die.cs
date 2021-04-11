@@ -22,8 +22,8 @@ public class Die : MonoBehaviour {
         body.useGravity = true;
     }
 
-    public void StartPreRoll () {
-        transform.position = new Vector3 (0, 25, 0);
+    public void StartPreRoll (Vector3 pos) {
+        transform.position = pos + new Vector3 (Random.Range (-4, 4), 0, Random.Range (-4, 4));
         preRoll = true;
         body.useGravity = false;
         still = false;

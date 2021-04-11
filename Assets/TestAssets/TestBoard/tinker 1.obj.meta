@@ -7,6 +7,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: color_16448250
+    second: {fileID: 2100000, guid: bef6935952eea0c459b37b155ef3b4f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: color_2829873
+    second: {fileID: 2100000, guid: fb0422ad45681714b8e6909fae24135a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: group_0_16448250Mat
     second: {fileID: 2100000, guid: 06d2aa1beea1458498ea8279ca9da777, type: 2}
   - first:
